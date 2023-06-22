@@ -1,0 +1,6 @@
+[submodule "nest-react-project"]
+	path = nest-react-project
+	url = https://github.com/KwonYeJun/SettingExample.git
+[submodule "client/SettingExample"]
+	path = client/SettingExample
+	url = https://github.com/KwonYeJun/SettingExample.git
