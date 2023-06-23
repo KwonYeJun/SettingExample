@@ -22,7 +22,6 @@ let AppController = exports.AppController = class AppController {
     }
     serveFile(req, res) {
         const filePath = (0, path_1.join)(__dirname, '..', '..', 'client', 'build', 'index.html');
-        res.setHeader('Content-Type', 'text/html');
         return res.sendFile(filePath);
     }
 };
